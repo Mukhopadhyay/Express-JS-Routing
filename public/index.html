@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Express JS Basic</title>
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <script type="text/javascript" src="static/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Hello World!</h2>
+                <h4>Welcome to index.html</h4>
+            </div>
+            <div class="link-buttons">
+                <a href="/login" class="btn btn-outline-primary">Login</a>
+                <a href="/about" class="btn btn-outline-warning">About Us</a>
+                <a href="/routes" class="btn btn-outline-danger">Routes</a>
+            </div>
+            <form method="POST" action="/test/submit" style="margin-top: 2rem;">
+                Enter filename: 
+                <input type="text" name="fName" placeholder="Ex. about.html">
+                <button class="btn btn-outline-info btn-sm" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
